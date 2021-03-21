@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Agregar título a la página -->
+        <title>Alejo's Grill</title>
+        <meta title="Alejo's Grill">
+
+       <!--  Codificación de Caracteres del Texto -->
+       <meta charset="utf-8">
+
+       <!-- Agregar Ícono de Favoritos -->
+       <link rel="icon" href="img/hamburger.png">
+
+        <!-- Meta que permite la correcta visualizacion en responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       <!-- Cargar librerias de Íconos Web > Font Awesome Icons -->
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+       <!-- Cargar PrefixFree -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+       <!-- Cargar Tipografía Web > Google Fonts -->
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Ravi+Prakash&display=swap" rel="stylesheet">
+
+       <!-- Enlazar a archivo externo Css > estilo.css -->
+       <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <!-- Componente Boton WhatsApp flotante -->
+        <aside id="boton-wp">
+            <a href="https://api.whatsapp.com/send?phone=573153625734" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a> 
+        </aside>
+
+        <!-- Componente Menú Responsive -->
+        <aside id="menu-moviles">
+            <a href="#" id="abrir-menu">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="#" id="cerrar-menu">
+                <i class="fas fa-times"></i>
+            </a>
+
+            <nav>
+                <a href="#ancla_conocenos">Conócenos</a>
+                <a href="#ancla_nuestro-menu">Nuestro Menú</a>
+                <a href="#ancla_contactanos">Contáctanos</a>
+            </nav>   
+        </aside>
+
+        <!-- Componente Header con Logo y Menú -->
+        <header>
+            <article>
+                <figure>
+                    <a href="index.html">
+                        <img src="img/Logo Restaurante.png" alt=" Alejos_Grill"> 
+                    </a>
+                </figure>
+
+                <nav>
+                    <a href="#ancla_conocenos">Conócenos</a>
+                    <a href="#ancla_nuestro_menu">Nuestro Menú</a>
+                    <a href="#ancla_contactanos">Contáctanos</a>
+                </nav>
+            </article>
+        </header>
+
+        <main>
+            <!-- Componente Presentación -->
+            <section id="conocenos">
+                <div id="ancla_conocenos"></div>
+                <article>
+                    <figure>
+                        <img src="img/Presentación.jpeg">
+                    </figure>
+
+                    <div id="info_conocenos">
+                        <h2>Quiénes Somos</h2>
+                        <h1>Nuestra Misión</h1>
+                        <p>Alejo's Grill es un Restaurante de sándwiches auténtico que ha servido con orgullo a las personas de la ciudad de Barranquilla desde el año 1998. Nuestra misión es proveer recetas de alta calidad a todos aquellos que busquen una experiencia gastronómica extraordinaria dentro de un ambiente divertido y agradable. Navega a continuación para obtener más información sobre nosotros.</p>
+                        <a href="https://www.instagram.com/alejoconde.sr/" target="_blank">Aprende Más</a>
+                    </div>
+                </article>
+            </section>
+            <div id="title_nuestro_menu">
+				<h2>Nuestro Menú</h2>
+			</div>
+
+            <!-- Componente Menú -->
+            <section id="nuestro_menu">
+                <div id="ancla_nuestro_menu"></div>
+                <article>
+                      <figure>
+                        <img id="img_entradas" src="img/Entradas.jpg">
+                        <h3>Entradas</h3>
+                      </figure>
+
+                      <figure>
+                        <img id="img_sandwiches" src="img/Sandwichde Jitomateyqueso14.jpg">
+                        <h3>Sandwiches</h3>
+                      </figure>
+
+                      <figure>
+                        <img id="img_bebidas" src="img/Malteadas.jpg">
+                        <h3>Bebidas</h3>
+                      </figure>
+
+                      <figure>
+                        <img id="img_postres" src="img/Postres.jpg">
+                        <h3>Postres</h3>
+                      </figure>
+                </article>
+            </section>
+
+            <!-- Sandwiches Clásicos -->
+            <section id="sandwiches_clasicos" style="display:none;" open_sec="no">
+                <div id="ancla_sandwiches_clasicos"></div>
+                <article>
+                    <figure>
+                      <img src="img/Sandwich1.jpg">
+                      <h3>El Clásico</h3>
+                      <p>Nuestra receta tradicional, el sandwich original. - 8,000$</p>
+                    </figure>
+
+                    <figure>
+                      <img src="img/Sandwich2.jpg">
+                      <h3>El Vegetariano</h3>
+                      <p>Con ingredientes clásicos como aguacate, lechuga, tomate, queso y mayonesa. Asado a la parrila. - 7,000$</p>
+                    </figure>
+
+                    <figure>
+                      <img src="img/Sandwich3.jpg">
+                      <h3>El Caprichoso</h3>
+                      <p>Sandwich doble de jamón ahumado con especias, queso cheddar, mayonesa de la casa, tomates y cebolla. Asado a la parrila. - 12,000$</p>
+                    </figure>
+
+                    <figure>
+                        <img src="img/Sandwich4.jpg">
+                        <h3>El Refinado</h3>
+                        <p>Sandwich con tiras de salmón ahumado con lechuga, perejil, rúgula, mayonesa de la casa y tostado a la parrila. - 14,000 </p>
+                      </figure>
+            </section>
+
+            <!-- Entradas -->
+            <section id="entradas" style="display:none;" open_sec="no">
+                <div id="ancla_entradas"></div>
+                <article>
+                    <figure>
+                      <img src="img/Entrada1.jpg">
+                      <h3>Los Coquetos</h3>
+                      <p>Tomates cherry rellenos  - 7,000$</p>
+                    </figure>
+
+                    <figure>
+                      <img src="img/Entradas2.jpg">
+                      <h3>Los Elegantes</h3>
+                      <p>Rollitos de jamón y queso con vegetales finamente picados. - 8,500$</p>
+                    </figure>
+
+                    <figure>
+                      <img src="img/Entradas3.jpg">
+                      <h3>Mar y Tierra</h3>
+                      <p>Tajadas de pepino cohombro con camarones en salsa de lacasa - 11,000$</p>
+                    </figure>
+
+                    <figure>
+                        <img src="img/Entradas.jpg">
+                        <h3>Las Mini</h3>
+                        <p>Mini tortillas rellenas de vegetales frescos y queso fundido. - 10,000 </p>
+                      </figure>
+            </section>
+
+            <!-- Bebidas -->
+            <section id="bebidas" style="display:none;" open_sec="no">
+                <div id="ancla_bebidas"></div>
+                <article>
+                    <figure>
+                      <img src="img/Malteadas1.jpg">
+                      <h3>Maltedadas</h3>
+                      <p>Pregunta por nuestros sabores. - 10,000$</p>
+                    </figure>
+
+                    <figure>
+                      <img src="img/Bebidascalientes.jpg">
+                      <h3>Bebidas Calientes</h3>
+                      <p>Café, chocolate, té y aromaticas. - 8,500$</p>
+                    </figure>
+
+                    <figure>
+                      <img src="img/Jugosnaturales.jpg">
+                      <h3>Jugos Naturales</h3>
+                      <p>En agua o en leche. - 7,000$</p>
+                    </figure>
+
+                    <figure>
+                        <img src="img/Gaseosas.jpg">
+                        <h3>Gaseosas</h3>
+                        <p>Productos Coca Cola. - 5,000$</p>
+                      </figure>
+            </section>
+
+            <!-- Postres -->
+            <section id="postres" style="display:none;" open_sec="no">
+                <div id="ancla_postres"></div>
+                <article>
+                    <figure>
+                      <img src="img/Postre1.jpg">
+                      <h3>Chessecake de frutas</h3>
+                      <p>Pregunta por nuestros sabores. - 9,000$</p>
+                    </figure>
+
+                    <figure>
+                      <img src="img/Tortahelada.jpg">
+                      <h3>Tortas Heladas</h3>
+                      <p>Sabores como chocolate, galleta, arequipe, vainilla y frutas. - 7,500$</p>
+                    </figure>
+
+                    <figure>
+                      <img src="img/Flan.jpg">
+                      <h3>Flanes</h3>
+                      <p>Pregunta por nuestros sabores disponibles. - 5,500$</p>
+                    </figure>
+
+                    <figure>
+                        <img src="img/helados.jpg">
+                        <h3>Helados</h3>
+                        <p>En agua o en leche. - 4,000$</p>
+                      </figure>
+            </section>
+        </main>
+
+        
+        <!-- Componente Footer con 4 columnas -->
+        <footer>
+            <div id="ancla-footer"></div>
+            <article>
+                 <div id="superior-footer">
+                     <div class="cajas-footer">
+                         <img src="img/Logo Restaurante.png">
+                         <p>Experiencias entre dos panes</p>
+                     </div>
+
+                     <div class="cajas-footer">
+                         <h6>Platillos Sin Igual</h6>
+                         <p>Por más de dos decadas ofreciedo los mejores sabores, para que tengas siempre una aventura sobre sandwiches...</p>
+                     </div>
+
+                     <div class="cajas-footer">
+                         <h6>Contáctanos</h6>
+                         <nav id="links-contacto">
+                             <a href="https://goo.gl/maps/pu6D5tQE3JQGpCdt6" target="_blank">
+                                 <i class="fas fa-map-marker-alt"></i>
+                                 <span>Edificio Irati</span>
+                             </a>
+                             <a href="tel:+573153625734">
+                                 <i class="fas fa-mobile"></i>
+                                 <span>3153625734</span>
+                            </a>
+                             <a href="mailto:alejandro.conde@uac.edu.co" target="_blank">
+                                <i class="far fa-envelope"></i>
+                                <span>alejandro.conde@uac.edu.co</span>
+
+                </a>
+            </nav>
+        </div>
+
+        <div class="cajas-footer">
+            <h6>Social</h6>
+            
+            <!-- Componente Botones Redes Sociales -->
+            <nav id="links-redes">
+               
+                <a href="#" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <div id="inferior-footer">
+<p>&copy; 2021 <strong>Alejandro Conde Sierra</strong>&trade;. Todos los derechos reservados.</p>
+    </div>
+</article>
+        </footer>
+
+        <!-- Zona de Scripts -->
+
+     <!-- LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Enlazar a archivo externo JS > script.js -->
+       <script src="js/script.js"></script>
+    </body>
+</html>
